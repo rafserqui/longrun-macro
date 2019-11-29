@@ -1,0 +1,153 @@
+%========================================================================================
+% Compilation should work with PDFLaTeX
+%========================================================================================
+% Type of document and general formatting
+\documentclass[a4paper,12pt]{article}
+
+\usepackage[left=2.25cm,right=2.25cm,top=2.25cm,bottom=2.25cm]{geometry}
+%\linespread{1.25}
+
+%========================================================================================
+% These packages are for language and font settings
+\usepackage[english,activeacute]{babel} % Language
+\usepackage{tgpagella}					% Text font
+\usepackage[T1]{fontenc}				% T1 Encoding of font
+\usepackage[utf8]{inputenc}				% Special symbols
+\usepackage{lmodern}
+
+
+%========================================================================================
+\usepackage[sc]{mathpazo}				% Math font
+\usepackage{amsmath,amsfonts,amssymb}	% Math symbols
+\usepackage{dsfont}						% Math symbols like R for reals...
+
+%========================================================================================
+% Bibliography packages
+\usepackage{natbib}
+\usepackage{bibentry}
+\bibliographystyle{apaurl}
+
+%========================================================================================
+% Other packages
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage[svgnames]{xcolor}
+
+%========================================================================================
+\usepackage{accents}
+\newcommand*{\dt}[1]{%
+	\accentset{\mbox{\large\bfseries .}}{#1}} % Larger dot for time derivative
+
+
+\usepackage{hyperref}
+\hypersetup
+{
+    pdfauthor={Rafael Serrano-Quintero},
+    pdfsubject={Structural Transformation in Indian Services},
+    colorlinks = {true},
+    linkcolor = {FireBrick},
+    citecolor = {FireBrick},
+    urlcolor = {RoyalBlue},
+}
+
+\usepackage{appendix}
+\usepackage{marvosym}
+\usepackage{enumerate} %For enumerating with letters with option [a)]
+\usepackage{fancyvrb}  %To reduce font size in verbatim environment
+\usepackage{epstopdf}
+\usepackage[flushleft]{threeparttable}
+\usepackage{pdflscape}
+\usepackage{subcaption}
+\usepackage{booktabs}
+\usepackage[super]{nth}
+\usepackage{float}
+
+\renewcommand{\textbullet}{\ensuremath{\bullet}}
+\newcommand{\source}[1]{\caption*{\tiny Source: {#1}} }
+
+\newtheorem{definition}{Definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{remark}{Remark}
+
+%========================================================================================
+					% === Title, thanks, and author data === %
+%========================================================================================
+
+
+\title{\textbf{Long-Run Growth}}
+\date{}
+
+\begin{document}
+\nobibliography{growth_biblio}
+
+\maketitle
+
+\section{Institutions and Persistence}
+\begin{itemize}
+	\item \bibentry{Glaeser2004InstitutionsCauseGrowth}
+	\item \bibentry{ajr2005handbook}
+	\item \bibentry{putterman2010PopFlowsDeterminantsGrowth}
+	\item \bibentry{dell2010PeruMita}
+	\item \bibentry{comin2010wealth1000}
+	\item \bibentry{michalopoulos2013nationalinstitutions}
+\end{itemize}
+
+\section{History and Initial Conditions}
+
+\begin{itemize}
+	\item \bibentry{ajr2001colonialorigins}
+	\item \bibentry{vollrath2011agriculturedevelopment}
+	\item \bibentry{nunn2008slavetrade}
+	\item \bibentry{nunn2009historydevelopment}
+	\item \bibentry{nunn2011slavetrademistrust}
+	\item \bibentry{kelly2019standarderrorspersistence}
+\end{itemize}
+
+\section{Genetics and Development}
+
+\begin{itemize}
+	\item \bibentry{spolaorewacziarg2009genesdiffusion}
+	\item \bibentry{ashrafgalor_outofafrica}
+	\item \bibentry{ashrafgalor_macrogenoeconomics_comparative_development}
+	\item \bibentry{arbatli2018diversityconflictWP}
+\end{itemize}
+
+\section{Structural Transformation}
+
+\begin{itemize}
+	\item \bibentry{kongsamutrebeloxie2001}
+	\item \bibentry{imbswacziarg2003diversification}
+	\item \bibentry{ngaipissarides2007structuralchange}
+	\item \bibentry{acemogluguerrieri2008capitaldeepening}
+	\item \bibentry{alvarezcuadrado2011outagriculture}
+	\item \bibentry{herrendorf2014handbook}
+	\item \bibentry{herrendorf2015sectoraltechnology}
+	\item \bibentry{duernecker2017structural}
+\end{itemize}
+
+\section{Spatial Economics and Development}
+
+\begin{itemize}
+	\item \bibentry{reddingrossihansberg2017review}
+	\item \bibentry{proos2019summary}
+	\item \bibentry{allenarkolakis2014topography}
+	\item \bibentry{desmetrossihansberg2014spatialdevelopment}
+	\item \bibentry{desmetnagyrossihansberg2018geographydevelopment}
+	\item \bibentry{gollinjedwabvollrath2016urbanization}
+	\item \bibentry{dondaldson2018railroadsraj}
+	\item \bibentry{trew2019endogenousinfrastructureWP}
+\end{itemize}
+
+\section{Productivity and Misallocation}
+
+\begin{itemize}
+	\item \bibentry{acemogluzilibotti2001productivitydiffs}
+	\item \bibentry{restuccia2008policydistortions}
+	\item \bibentry{hsiehklenow2009misallocation}
+	\item \bibentry{song2011growinglikechina}
+	\item \bibentry{ziebarth2013chinaindia}
+	\item \bibentry{garciasantana2014ssrl}
+	\item \bibentry{restucciarogerson2017causesmisallocation}
+\end{itemize}
+
+\end{document}
