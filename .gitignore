@@ -1,0 +1,9 @@
+# Latex files to ignore
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+
+*.Rhistory
