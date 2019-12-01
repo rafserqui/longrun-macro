@@ -73,7 +73,7 @@ options:
     2.9\miktex\bin\x64;%ProgramFiles(x86)%\MiKTeX 2.9\miktex\bin;$PATH
 files:
   dicy-instance.yaml-ParsedYAML:
-    timeStamp: 2019-12-01T20:27:28.811Z
+    timeStamp: 2019-12-01T20:36:12.369Z
     jobNames: []
     value:
       severity: info
@@ -134,28 +134,28 @@ files:
         2.9\miktex\bin\x64;%ProgramFiles(x86)%\MiKTeX 2.9\miktex\bin;$PATH
     type: ParsedYAML
   references_list.tex:
-    timeStamp: 2019-12-01T20:29:35.689Z
+    timeStamp: 2019-12-01T20:36:28.817Z
     jobNames: []
-    hash: AKiETw7qs4NcSOShwI5Fc4TWjD/W4d8X+5RxQVL0qfE=
+    hash: AmQK92oqP8d28Qf4wad8vJQBgCvok73boWxdaDzkADw=
     type: LaTeX
     subType: article
   'C:\Users\Rafael\AppData\Roaming\dicy\config.yaml':
-    timeStamp: 2019-12-01T20:27:28.825Z
+    timeStamp: 2019-12-01T20:36:12.381Z
     jobNames: []
     type: YAML
   x.y-Nil:
     jobNames: []
     type: Nil
   references_list.blg:
-    timeStamp: 2019-12-01T20:29:36.833Z
+    timeStamp: 2019-12-01T20:36:13.688Z
     jobNames: []
     hash: 2p7KhpmCe2OOM2qqjs7VKStlZ7lQcP9ajix/vfSBtD0=
     type: BibTeXLog
     subType: BibTeX
   references_list.log:
-    timeStamp: 2019-12-01T20:29:38.261Z
+    timeStamp: 2019-12-01T20:36:30.596Z
     jobNames: []
-    hash: Jh4RA48lktezG/TE/0kJiNNKGnifbEX07+ao4KeVSJM=
+    hash: UXDhPVpSOAZO5iqbELCI2PJ9RnaLdbOhzCeTxSTqfTg=
     type: LaTeXLog
     subType: pdfTeX
   references_list.fls-ParsedFileListing:
@@ -2668,24 +2668,24 @@ files:
       calls: []
     type: ParsedBibTeXLog
   references_list.pdf:
-    timeStamp: 2019-12-01T20:29:38.239Z
+    timeStamp: 2019-12-01T20:36:30.571Z
     jobNames: []
-    hash: VqfEEp0NUgkjkCiJWdu8+Yn8K7Ni2sCReWSJAPfqQEY=
+    hash: VUT1psyI7fY2VKITlsDxxBqHmckSkSNObz7f8rJ46L8=
     type: PortableDocumentFormat
   references_list.aux:
-    timeStamp: 2019-12-01T20:29:38.179Z
+    timeStamp: 2019-12-01T20:36:30.513Z
     jobNames: []
     hash: y9Mx5z21GpgSHwbHfNN2XcOcJPGI1sgd3MIL/kXudZg=
     type: LaTeXAuxilary
   references_list.fls:
-    timeStamp: 2019-12-01T20:29:38.267Z
+    timeStamp: 2019-12-01T20:36:30.601Z
     jobNames: []
     hash: XKMBvoFbIEipb7tANIHY2gILWKCNAe5UlAYCy+Y3Jwk=
     type: FileListing
   references_list.synctex.gz:
-    timeStamp: 2019-12-01T20:29:38.254Z
+    timeStamp: 2019-12-01T20:36:30.589Z
     jobNames: []
-    hash: tRrJxxRHiRdc7MUv8so/ZvL14jyCOO5qcoNqSChfb9A=
+    hash: BZmJZJ9BMS7OP4gSWMvfC7hLUjhIgyQGozKuFaZI028=
     type: SyncTeX
   references_list.aux-ParsedLaTeXAuxilary:
     timeStamp: 2019-12-01T20:27:32.268Z
@@ -3267,11 +3267,11 @@ files:
     jobNames: []
     type: LaTeXStyle
   references_list.bbl:
-    timeStamp: 2019-12-01T20:29:36.827Z
+    timeStamp: 2019-12-01T20:36:13.682Z
     jobNames: []
     hash: ag7gUSpbhfmeJDJASYWTojjsYZazPooIdbWo+WzZ4Pw=
   references_list.out:
-    timeStamp: 2019-12-01T20:29:38.184Z
+    timeStamp: 2019-12-01T20:36:30.515Z
     jobNames: []
     hash: LPFGkcoC7nxC3/p36DPAQEJbDsvUGLP7Z16pq3ZvCgY=
     type: OUT
